@@ -6,3 +6,9 @@ Every day for a hundred days, I posted brief Java material to my social media ch
 If you have any questions, ask me on my **[social media](https://www.linkedin.com/in/vidushika-dasanayaka/)**
 
 <b>Table of Content</b>
+
+== Day 1 - Generating a random number within a specific range.
+
+[source,java]
+----
+
