@@ -5,4 +5,4 @@ Every day for a hundred days, I posted brief Java material to my social media ch
 
 If you have any questions, ask me on my **[social media](https://www.linkedin.com/in/vidushika-dasanayaka/)**
 
-<b>Table of Contentd</b>
+<b>Table of Content</b>
