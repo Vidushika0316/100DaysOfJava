@@ -7,7 +7,7 @@ If you have any questions, ask me on my https://www.linkedin.com/in/vidushika-da
 
 Table of Content
 
-== Day 1 - Generating a random number within a specific range.
+== Day 1 - Two Sum Challenge.
 
 [source,java]
 ----
