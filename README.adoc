@@ -32,3 +32,18 @@ public class Day001 {
 }
 ----
 
+== Day 2 - Palindrome Number Challenge.
+
+[source,java]
+----
+public class Day002 {
+    public boolean isPalindrome(int x) {
+        String str = Integer.toString(x);
+        String reverseStr = new StringBuilder(str).reverse().toString();
+        return str.equals(reverseStr);
+    }
+}
+
+
+----
+
