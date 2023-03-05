@@ -6,7 +6,10 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-.idea
+
+#ignore .idea and out/ folder
+.idea/
+out/
 
 
 
