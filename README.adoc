@@ -143,7 +143,29 @@ public class Day003 {
     }
 }
 
+----
 
+== Day 4 - Longest Common Prefix Challenge.
 
+[source,java]
+----
+import java.util.Arrays;
+
+public class Day004 {
+    public String longestCommonPrefix(String[] strs) {
+        Arrays.sort(strs);
+        String firstString = strs[0];
+        String lastString = strs[strs.length-1];
+        int x = 0;
+        while(x < firstString.length() && x < lastString.length()){
+            if(firstString.charAt(x) == lastString.charAt(x)){
+                x++;
+            } else {
+                break;
+            }
+        }
+        return firstString.substring(0, x);
+    }
+}
 ----
 
