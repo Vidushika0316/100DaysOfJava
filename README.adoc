@@ -211,3 +211,17 @@ public class Day005 {
 }
 ----
 
+== Day 6 - Find the Index of the First Occurrence in a String
+
+[source,java]
+----
+public class Day006 {
+    public int strStr(String haystack, String needle) {
+        if(haystack.contains(needle)){
+            return haystack.indexOf(needle);
+        }
+        return -1;
+    }
+}
+----
+
