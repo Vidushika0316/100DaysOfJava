@@ -211,7 +211,7 @@ public class Day005 {
 }
 ----
 
-== Day 6 - Find the Index of the First Occurrence in a String
+== Day 6 - Find the Index of the First Occurrence in a String Challenge
 
 [source,java]
 ----
@@ -222,6 +222,24 @@ public class Day006 {
         }
         return -1;
     }
+}
+----
+
+== Day 7 - Sqrt(x) Challenge
+
+[source,java]
+----
+public class Day007 {
+    public int mySqrt(int x) {
+        int y;
+        if(x==0)
+            return x;
+        else
+            y = (int) Math.pow(x,0.5);
+        return y;
+
+    }
+}
 }
 ----
 
