@@ -307,3 +307,18 @@ public class Day010 {
 }
 ----
 
+== Day 11 -Search Insert Position
+
+[source,java]
+----
+import java.util.Arrays;
+
+public class Day011 {
+    public int searchInsert(int[] nums, int target) {
+
+        int a= Arrays.binarySearch(nums,target);
+        if(a>=0) return a;
+        else return Math.abs(a)-1;
+    }
+}
+----
