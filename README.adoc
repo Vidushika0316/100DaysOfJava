@@ -367,7 +367,7 @@ public class Day012 {
 
 ----
 
-== Day 14 -Lenth of Last Word
+== Day 14 -Length of Last Word
 
 [source,java]
 ----
