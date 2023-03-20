@@ -393,7 +393,7 @@ public class Day012 {
 
 [source,java]
 ----
- import java.util.HashSet;
+import java.util.HashSet;
 import java.util.Set;
 
 public class Day015 {
