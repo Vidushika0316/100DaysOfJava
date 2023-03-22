@@ -439,3 +439,23 @@ public class Day016 {
 }
 
 ----
+
+== Day 17 -Arranging Coins
+
+[source,java]
+----
+public class Day017 {
+    public int arrangeCoins(int n) {
+        int i=1;
+        int complete=0;
+
+        while(n>=i){
+            n-=i;
+            complete++;
+            i++;
+        }
+        return complete;
+    }
+}
+
+----
