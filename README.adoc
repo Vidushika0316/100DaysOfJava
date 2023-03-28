@@ -507,3 +507,16 @@ public class Day019 {
 }
 
 ----
+
+== Day 19 -Power of Two
+
+[source,java]
+----
+public class Day020 {
+    public boolean isPowerOfTwo(int n) {
+        return n > 0 && (n & (n - 1)) == 0;
+    }
+}
+
+
+----
