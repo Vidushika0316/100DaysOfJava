@@ -18,3 +18,5 @@ public class Day021 {
 
     }
 }
+
+//Add Strings
