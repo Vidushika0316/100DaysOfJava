@@ -508,7 +508,7 @@ public class Day019 {
 
 ----
 
-== Day 19 -Power of Two
+== Day 20 -Power of Two
 
 [source,java]
 ----
