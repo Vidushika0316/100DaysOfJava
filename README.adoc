@@ -546,3 +546,15 @@ public class Day021 {
     }
 }
 ----
+
+== Day 22 - Number of Segments in a String
+
+[source,java]
+----
+public class Day022 {
+    public int countSegments(String s) {
+        s = s.trim();
+        return (s.length() > 0) ? s.split("\\s+").length : 0;
+    }
+}
+----
