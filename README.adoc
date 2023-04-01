@@ -580,3 +580,19 @@ public class Day023 {
     }
 }
 ----
+
+== Day 24 - Perfect Number
+
+[source,java]
+----
+public class Day024 {
+    public boolean checkPerfectNumber(int num) {
+        int sum = 0;
+        if(num % 2 != 0) return false;
+        for(int i = 1; i <= num / 2; i++)
+            if(num % i == 0) sum += i;
+        return sum == num;
+
+    }
+}
+----
