@@ -629,3 +629,19 @@ public class Day025 {
     }
 }
 ----
+
+
+== Day 26 -Valid Perfect Square
+
+[source,java]
+----
+public class Day026 {
+    public boolean isPerfectSquare(int num) {
+        double n= Math.sqrt(num);
+        int m=(int)Math.floor(n);
+        return n==m;
+
+    }
+}
+
+----
