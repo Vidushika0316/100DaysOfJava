@@ -694,3 +694,53 @@ public class Day028 {
 }
 
 ----
+
+== Day 29 -Reverse String II
+
+[source,java]
+----
+public class Day029 {
+    public String reverseStr(String s, int k) {
+
+        int i=0;
+
+        String ans="";
+
+        while(i<s.length()){
+
+            if(i+(2*k)-1<s.length()||(i+(2*k)-1>=s.length()&&s.length()-i>=k)){
+                int index=i+(2*k)-1;
+                StringBuilder str=new StringBuilder();
+                String app=s.substring(i,i+k);
+                str.append(app);
+                str.reverse();
+                ans+=str.toString();
+                i=i+k;
+                if(index<s.length()){
+                    ans+=s.substring(i,index+1);
+                }
+                else{
+                    ans+=s.substring(i,s.length());
+                }
+
+                i=index+1;
+
+            }
+
+            else{
+                StringBuilder temp2=new StringBuilder();
+                temp2.append(s.substring(i,s.length()));
+                temp2.reverse();
+                ans+=temp2.toString();
+                break;
+            }
+
+        }
+
+        return ans;
+
+    }
+}
+
+----
+
