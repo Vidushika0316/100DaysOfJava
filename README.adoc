@@ -777,7 +777,33 @@ public class Day030 {
         return true;
     }
 }
+----
 
+== Day 31 -  X of a Kind in a Deck of Cards
 
+[source,java]
+----
+import java.util.HashMap;
+import java.util.Map;
+
+public class Day031 {
+    public boolean hasGroupsSizeX(int[] deck) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i : deck) {
+            map.put(i, map.getOrDefault(i, 0) + 1);
+        }
+
+        int gcd = 0;
+        for (int val : map.values()) {
+            gcd = gcd(gcd, val);
+        }
+
+        return gcd > 1;
+    }
+
+    public int gcd(int a, int b) {
+        return (b == 0)? a : gcd(b, a % b);
+    }
+}
 ----
 
